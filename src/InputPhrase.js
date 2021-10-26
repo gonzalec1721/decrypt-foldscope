@@ -25,27 +25,27 @@ export default function InputPhrase() {
   };
   return (
     <div>
-      <h1 class="font-Lobster justify-items-center mb-8 mt-8 text-6xl">
+      <h1 class="font-Lobster justify-items-center mb-8 mt-8 text-6xl text-white">
         Decrypter
       </h1>
       <button
-        class="font-Lato bg-red-300 hover:bg-red-400 justify-items-center pl-2 pr-2 mb-8 rounded-lg border-4 border-red-500 border-opacity-100"
+        class="font-Lato bg-gray-300	 hover:bg-red-400 justify-items-center pl-2 pr-2 mb-8 rounded-lg border-4 border-blue-800 border-opacity-100"
         onClick={() => window.location.reload(false)}
       >
         Click to reload!
       </button>
       <div class=" grid justify-items-center">
         <form>
-          <label class="font-Lato text-2xl">
+          <label class=" text-white	font-Lato text-2xl">
             Secret Phrase:
             <input
-              class=" ml-2 rounded-lg border-4 border-blue-500 border-opacity-100"
+              class="text-black ml-2 rounded-lg border-4 border-blue-800 border-opacity-100"
               onChange={handleChange}
               value={secretWord}
               type="text"
             ></input>
             <button
-              class="font-Lato bg-red-300 hover:bg-red-400 pl-2 pr-2 ml-2 rounded-lg border-4 border-red-500 border-opacity-100"
+              class="sm: mt-10 text-black font-Lato bg-gray-300	hover:bg-red-400 pl-2 pr-2 ml-2 rounded-lg border-4 border-blue-800 border-opacity-100 "
               onClick={handleSumbit}
             >
               Sumbit

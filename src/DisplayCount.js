@@ -42,7 +42,7 @@ export default function DisplayCount({ word }) {
         {handleSet().map((el, index) => {
           return (
             <p
-              class="pt-2 pb-2 pl-4 border-double rounded-lg border-8 border-red-300 border-opacity-100 "
+              class="bg-white shadow-2xl pt-2 pb-2 pl-4 border-double rounded-lg border-8 border-blue-800 border-opacity-100"
               key={index}
             >
               {el}
@@ -52,7 +52,7 @@ export default function DisplayCount({ word }) {
       </div>
 
       <button
-        class="font-Lato bg-red-300 hover:bg-red-400 bg-opacity-75 justify-items-center pl-2 pr-2 mt-8 mb-8 rounded-lg border-4 border-red-500 border-opacity-100"
+        class="font-Lato bg-gray-300	 hover:bg-red-400  justify-items-center pl-2 pr-2 mt-8 mb-8 rounded-lg border-4 border-blue-800 border-opacity-100"
         onClick={handleFive}
       >
         Top Five Letters
